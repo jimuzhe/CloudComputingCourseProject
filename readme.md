@@ -5,7 +5,7 @@
 [小说词云分析流程](https://s0wpguaqyby.feishu.cn/wiki/BoMUwrIPWiOTKtkr2T4cG1YUn0f?from=from_copylink)
 
 ## 文件夹结构
-
+```
 novel_fin_analysis/               # 三体全集
 │
 ├── Three_Body1/               # 三体第一部
@@ -31,3 +31,4 @@ novel_fin_analysis/               # 三体全集
     ├── coherence_plot.png
     ├── perplexity_plot.png
     └── grid_search_results.png
+```
