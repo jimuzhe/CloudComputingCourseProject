@@ -1,32 +1,33 @@
+# å°è¯´è¯äº‘åˆ†ææµç¨‹
 
-²Ù×÷Á÷³Ì£º
-[Ğ¡Ëµ´ÊÔÆ·ÖÎöÁ÷³Ì](https://s0wpguaqyby.feishu.cn/wiki/BoMUwrIPWiOTKtkr2T4cG1YUn0f?from=from_copylink)
+## æ“ä½œæµç¨‹
 
-ÎÄ¼ş¼Ğ½á¹¹£º
-novel_fin_analysis/ -> ÈıÌåÈ«¼¯
-Three_Body1/ -> ÈıÌåµÚÒ»²¿
-Three_Body2/ -> ÈıÌåµÚ¶ş²¿
-Three_Body3/ -> ÈıÌåµÚÈı²¿
-LDAOptimalParamsFinder.py -> LDA²ÎÊıÓÅ»¯½Å±¾
-¸÷ÎÄ¼ş¼ĞÏÂÓĞ²ÎÊıÓÅ»¯½á¹ûÍ¼£º
-coherence_plot.png
-perplexity_plot.png
-grid_search_results.png
+[å°è¯´è¯äº‘åˆ†ææµç¨‹](https://s0wpguaqyby.feishu.cn/wiki/BoMUwrIPWiOTKtkr2T4cG1YUn0f?from=from_copylink)
 
+## æ–‡ä»¶å¤¹ç»“æ„
 
-ÒÔThree_Body1/ÎªÀı
-
--stopwords.txt -> Í£ÓÃ´Ê±í
--threebody.txt -> Ğ¡ËµÎÄ±¾
--chinese_segmentation.py -> ·Ö´Ê½Å±¾
--segmented_text1.txt -> ·Ö´Ê½á¹û
--SegmentedWordCount.java -> ´ÊÆµÍ³¼ÆMapReduce³ÌĞò
--wordcount_output -> ´ÊÆµÍ³¼Æ½á¹û
--wx1.png/wx2.png -> ×Ô¶¨Òå´ÊÔÆÍ¼Ä£°å
--wordcloud_gen1_bea.py -> ´ÊÔÆÉú³É½Å±¾
--threebody_wordcloud1.png -> ´ÊÔÆÍ¼
--topic_modeling.py -> LDAÖ÷Ìâ·ÖÎö½Å±¾
--topic_analysis_results.txt -> Ö÷Ìâ·ÖÎö½á¹û
--lda_visualization.html -> Ö÷Ìâ·ÖÎö¿ÉÊÓ»¯½á¹û
-
-
+novel_fin_analysis/               # ä¸‰ä½“å…¨é›†
+â”‚
+â”œâ”€â”€ Three_Body1/               # ä¸‰ä½“ç¬¬ä¸€éƒ¨
+â”‚   â”œâ”€â”€ -stopwords.txt         # åœç”¨è¯è¡¨
+â”‚   â”œâ”€â”€ -threebody.txt         # å°è¯´æ–‡æœ¬
+â”‚   â”œâ”€â”€ -chinese_segmentation.py  # åˆ†è¯è„šæœ¬
+â”‚   â”œâ”€â”€ -segmented_text1.txt   # åˆ†è¯ç»“æœ
+â”‚   â”œâ”€â”€ -SegmentedWordCount.java  # è¯é¢‘ç»Ÿè®¡MapReduceç¨‹åº
+â”‚   â”œâ”€â”€ -wordcount_output      # è¯é¢‘ç»Ÿè®¡ç»“æœ
+â”‚   â”œâ”€â”€ -wx1.png               # è‡ªå®šä¹‰è¯äº‘å›¾æ¨¡æ¿
+â”‚   â”œâ”€â”€ -wx2.png               # è‡ªå®šä¹‰è¯äº‘å›¾æ¨¡æ¿
+â”‚   â”œâ”€â”€ -wordcloud_gen1_bea.py  # è¯äº‘ç”Ÿæˆè„šæœ¬
+â”‚   â”œâ”€â”€ -threebody_wordcloud1.png  # è¯äº‘å›¾
+â”‚   â”œâ”€â”€ -topic_modeling.py     # LDAä¸»é¢˜åˆ†æè„šæœ¬
+â”‚   â”œâ”€â”€ -topic_analysis_results.txt  # ä¸»é¢˜åˆ†æç»“æœ
+â”‚   â””â”€â”€ -lda_visualization.html  # ä¸»é¢˜åˆ†æå¯è§†åŒ–ç»“æœ
+â”‚
+â”œâ”€â”€ Three_Body2/               # ä¸‰ä½“ç¬¬äºŒéƒ¨
+â”œâ”€â”€ Three_Body3/               # ä¸‰ä½“ç¬¬ä¸‰éƒ¨
+â”œâ”€â”€ LDAOptimalParamsFinder.py   # LDAå‚æ•°ä¼˜åŒ–è„šæœ¬
+â”‚
+â””â”€â”€ å„æ–‡ä»¶å¤¹ä¸‹æœ‰å‚æ•°ä¼˜åŒ–ç»“æœå›¾ï¼š
+    â”œâ”€â”€ coherence_plot.png
+    â”œâ”€â”€ perplexity_plot.png
+    â””â”€â”€ grid_search_results.png
